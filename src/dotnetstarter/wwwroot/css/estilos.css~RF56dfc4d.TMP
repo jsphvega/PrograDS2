@@ -7,14 +7,23 @@
     background-color: rgba(255,255,255,0.2);
     width: 20%;
     height: 25%;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    margin-top: -5%;
-    margin-left: -10%;
     text-align: center;
-    padding: 10px 10px;
 }
+
+    #divLogin input {
+        width: 90%;
+    }
+
+    #divLogin table {
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        padding 5% 5%;
+    }
 
     #divLogin button {
         transition-duration: 0.2s;
@@ -25,22 +34,6 @@
         background-color: darkblue;
         color: white;
     }
-
-    #divLogin input {
-        width: 100%;
-    }
-
-    #divLogin table {
-        color: white;
-        width: 100%;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-    }
-
-        #divLogin table tr td {
-            padding: 3px 5px;
-        }
 
 
 /**********************************/
