@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Tutor Cognitivo</title>
+    <title>Consultas</title>
 
     <!--Configuraciones de la página-->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -50,12 +50,25 @@
         <!--Cuerpo-->
         <div id="page" class="container">
             <section>
+                <!--Titulo-->
                 <header class="major">
-                    <h2>Consultas</h2>
-                    <span class="byline">Pregunta</span>
+                    <span class="byline">Pregunta:</span>
                 </header>
-                <input id="txtPregunta" style="background-color:lightgray" maxlength="300" type="text" />
-            </section>
+
+                <!--Entradas-->
+                <input id="txtPregunta" style="background-color:lightgray" maxlength="300" type="text"/>
+                <p style="text-align:right; padding:5px">
+                    <button type="button" class="button">Aceptar</button>
+                </p>
+
+                <!--Titulo-->
+                <header class="major">
+                    <span class="byline">Respuesta(s):</span>
+                </header>
+
+                <!--Entradas-->
+                <textarea id="txtRespuesta"></textarea>
+</section>
         </div>
 
         <!-- /Page -->
