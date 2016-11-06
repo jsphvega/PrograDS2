@@ -9,14 +9,16 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <!--Archivos .js-->
+    <!--Archivos .js responsive-->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.dropotron.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/skel-layers.min.js"></script>
     <script src="js/init.js"></script>
 
-    <!--Archivos .css-->
+    <script src="js/registro.js"></script>
+
+    <!--Archivos .css responsive-->
     <noscript>
         <link rel="stylesheet" href="css/skel.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -63,7 +65,7 @@
                     </section>
 
                     <!--Primer Apellido-->
-                    <section class="4u">
+                    <section class="4u" style="vertical-align:bottom">
                         <br />
 
                         <div class="box">
@@ -155,15 +157,18 @@
                         </div>
                     </section>
 
+                    <!--Sección vacia-->
                     <section class="4u">
                         <div class="box">
-                            
+
                         </div>
                     </section>
+
+                    <!--Seccion de los botones de aceptar y cancelar-->
                     <section class="4u">
                         <div class="box">
                             <br />
-                            <button type="button" class="button">Aceptar</button>
+                            <button type="button" name="btnAceptar" onclick="return mensaje()" class="button">Aceptar</button>
                             <button type="button" class="button">Cancelar</button>
                         </div>
                     </section>
@@ -177,7 +182,7 @@
         <div class="container">
             <span class="copyright">
                 Tutor Cognitivo por <b>ChuckyBueno</b>
-                / II semestre <b>Noviembre 2016</b>
+                / II semestre / <b>Noviembre 2016</b>
             </span>
         </div>
     </div>
