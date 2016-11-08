@@ -22,6 +22,18 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style-wide.css" />
     </noscript>
+
+    <script>
+
+        function botonOcultoEliminar() {
+
+            var boton = document.getElementById('<%=btnEliminar.ClientID%>');
+
+            boton.click();
+
+        }
+
+    </script>
 </head>
 
 <body>
@@ -50,6 +62,12 @@
         <!--Cuerpo-->
         <div id="page" class="container">
             <section>
+                <div id="botones">
+
+                    <asp:Buttton id="btnEliminar" runat="server" Text="Get" Style="display: none" OnClick="btnEliminar_Click" />
+
+                </div>
+
                 <!--Titulo-->
                 <header class="major">
                     <span class="byline">Pregunta:</span>
