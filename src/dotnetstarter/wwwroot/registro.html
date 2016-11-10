@@ -8,6 +8,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 
     <!--Archivos .js responsive-->
     <script src="js/jquery.min.js"></script>
@@ -16,7 +17,8 @@
     <script src="js/skel-layers.min.js"></script>
     <script src="js/init.js"></script>
 
-    <script src="js/registro.js"></script>
+    <!--Archivos .js de la clase-->
+    <script src="js/web/registro.js"></script>
 
     <!--Archivos .css responsive-->
     <noscript>
@@ -24,19 +26,27 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style-wide.css" />
     </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
 <body>
     <!--Contenedor principal-->
     <div class="wrapper style1">
 
         <!--Encabezado-->
-        <div id="header" class="skel-panels-fixed">
+        <div id="header" class="skel-panels-fixed">      
 
             <!--Nombre del proyecto-->
             <div id="logo">
                 <h1><a href="index.html">Tutor Cognitivo</a></h1>
                 <span class="tag">por ChuckyBueno</span>
             </div>
+
+            <!--Menú principal-->
+            <nav id="nav">
+                <ul>
+                    <li class="active"><a href="main.html">Inicio</a></li>
+                </ul>
+            </nav>
         </div>
 
         <!--Cuerpo-->
@@ -65,7 +75,8 @@
                     </section>
 
                     <!--Primer Apellido-->
-                    <section class="4u" style="vertical-align:bottom">
+                    <section class="4u">
+
                         <br />
 
                         <div class="box">
@@ -78,7 +89,6 @@
                         <br />
 
                         <div class="box">
-                            <span class="byline"></span>
                             <input id="txtApellido2" placeholder="2° Apellido" type="text" />
                         </div>
                     </section>
@@ -166,26 +176,27 @@
 
                     <!--Seccion de los botones de aceptar y cancelar-->
                     <section class="4u">
+                        <br />
                         <div class="box">
-                            <br />
                             <button type="button" name="btnAceptar" onclick="return mensaje()" class="button">Aceptar</button>
                             <button type="button" class="button">Cancelar</button>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- Pie de página -->
-    <div id="copyright">
-        <div class="container">
-            <span class="copyright">
-                Tutor Cognitivo por <b>ChuckyBueno</b>
-                / II semestre / <b>Noviembre 2016</b>
-            </span>
-        </div>
+<!-- Pie de página -->
+<div id="copyright">
+    <div class="container">
+        <span class="copyright">
+            Tutor Cognitivo por <b>ChuckyBueno</b>
+            / II semestre / <b>Noviembre 2016</b>
+        </span>
     </div>
+</div>
 
 </body>
 </html>

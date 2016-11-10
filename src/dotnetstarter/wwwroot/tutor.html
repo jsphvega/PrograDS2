@@ -50,7 +50,30 @@
         <!--Cuerpo-->
         <div id="page" class="container">
             <section>
-                
+                <div id="botones">
+
+                    <asp:Buttton id="btnEliminar" runat="server" Text="Get" Style="display: none" OnClick="btnEliminar_Click" />
+
+                </div>
+
+                <!--Titulo-->
+                <header class="major">
+                    <span class="byline">Pregunta:</span>
+                </header>
+
+                <!--Entradas-->
+                <input id="txtPregunta" style="background-color:rgb(232, 227, 227)" maxlength="300" type="text" />
+                <p style="text-align:right; padding:5px">
+                    <button type="button" class="button">Aceptar</button>
+                </p>
+
+                <!--Titulo-->
+                <header class="major">
+                    <span class="byline">Respuesta(s):</span>
+                </header>
+
+                <!--Entradas-->
+                <textarea id="txtRespuesta" style="background-color:rgb(232, 227, 227)"></textarea>
             </section>
         </div>
     </div>
