@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
+
+
 public class Startup
 {
 	public void Configure(IApplicationBuilder app)
@@ -16,11 +18,16 @@ public class Startup
             .AddCommandLine(args)
             .Build();
 
+      
         var host = new WebHostBuilder()
                     .UseKestrel()
                     .UseConfiguration(config)
                     .UseStartup<Startup>()
                     .Build();
         host.Run();
+
+        
+        
+        
     }
 }

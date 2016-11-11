@@ -7,5 +7,7 @@ namespace dotnethelloworld.accesoDatos
 {
     public class Class
     {
+
+
     }
 }
