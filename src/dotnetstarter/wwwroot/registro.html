@@ -1,202 +1,192 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <html>
 <head>
-    <title>Registro</title>
+	<title>Registro</title>
 
-    <!--Configuraciones de la página-->
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<!--Configuraciones de la página-->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!--Archivos .js responsive-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.dropotron.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-layers.min.js"></script>
-    <script src="js/init.js"></script>
+	<!--Archivos .js responsive-->
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 
-    <!--Archivos .js de la clase-->
-    <script src="js/web/registro.js"></script>
+	<!--Archivos .js de la clase-->
+	<script src="js/registro.js"></script>
 
-    <!--Archivos .css responsive-->
-    <noscript>
-        <link rel="stylesheet" href="css/skel.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/style-wide.css" />
-    </noscript>
-    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	<!--Archivos .css responsive-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
-<body>
-    <!--Contenedor principal-->
-    <div class="wrapper style1">
 
-        <!--Encabezado-->
-        <div id="header" class="skel-panels-fixed">      
+<body class="homepage">
+	<!--Contenedor principal-->
+	<div id="page-wrapper">
 
-            <!--Nombre del proyecto-->
-            <div id="logo">
-                <h1><a href="index.html">Tutor Cognitivo</a></h1>
-                <span class="tag">por ChuckyBueno</span>
-            </div>
+		<!--Encabezado-->
+		<header id="header">
 
-            <!--Menú principal-->
-            <nav id="nav">
-                <ul>
-                    <li class="active"><a href="main.html">Inicio</a></li>
-                </ul>
-            </nav>
-        </div>
+			<!--Nombre del proyecto-->
+			<div class="logo container">
+				<div>
+					<h1><a id="logo">Tutor Cognitivo</a></h1>
+					<p>por ChuckyBueno</p>
+				</div>
+			</div>
+		</header>
 
-        <!--Cuerpo-->
-        <div id="extra">
-            <div id="page" class="container" style="background-color:white">
+		<!--Menú principal-->
+		<nav id="nav">
+			<ul>
+				<li class="current"><a href="main.html">Volver</a></li>
+			</ul>
+		</nav>
 
-                <!--Titulo-->
-                <section>
-                    <header class="major">
-                        <span class="byline">Registro de usuarios</span>
-                    </header>
-                </section>
+		<!--Cuerpo-->
+		<div id="main-wrapper">
 
-                <!--Seccion del nombre-->
-                <div class="row no-collapse-1">
+			<!--Contenedor-->
+			<div id="main" class="container">
 
-                    <!--Nombre-->
-                    <section class="4u">
+				<div class="row 200%">
+					<div class="12u">
 
-                        <!--Subtitulo-->
-                        <span class="byline">Nombre Completo</span>
+						<!-- Features -->
+						<section class="box features">
+							<h2 class="major"><span>Registro de usuarios</span></h2>
+							<div>
 
-                        <div class="box">
-                            <input id="txtNombre" placeholder="Nombre" type="text" />
-                        </div>
-                    </section>
+								<!--Seccion del titulo-->
+								<div class="row">	
+									<!--Titulo-->
+									<div class="2u 12u(mobile)">
+										<h3><a href="#">Nombre Completo</a></h3>
+									</div>
+								</div>
 
-                    <!--Primer Apellido-->
-                    <section class="4u">
+								<!--Seccion del nombre-->
+								<div class="row">
+									<!--Nombre-->
+									<div class="4u 12u(mobile)">
+										<p><input id="txtNombre" placeholder="Nombre" type="text" /></p>
+									</div>
 
-                        <br />
+									<!--Apell1do 1-->
+									<div class="4u 12u(mobile)">
+										<p><input id="txtApellido1" placeholder="1° Apellido" type="text" /></p>
+									</div>
 
-                        <div class="box">
-                            <input id="txtApellido1" placeholder="1° Apellido" type="text" />
-                        </div>
-                    </section>
+									<!--Apellido 2-->
+									<div class="4u 12u(mobile)">
+										<p><input id="txtApellido2" placeholder="2° Apellido" type="text"/></p>
+									</div>
+								</div>
 
-                    <!--Segundo Apellido-->
-                    <section class="4u">
-                        <br />
+								<!--Seccion del titulo-->
+								<div class="row">
+									<!--Titulo-->
+									<div class="3u 12u(mobile)">
+										<h3><a href="#">Correo electrónico</a></h3>
+									</div>
 
-                        <div class="box">
-                            <input id="txtApellido2" placeholder="2° Apellido" type="text" />
-                        </div>
-                    </section>
-                </div>
+									<!--Titulo-->
+									<div class="3u 12u(mobile)">
+										<h3><a href="#">Carrera</a></h3>
+									</div>
 
-                <!--Seccion de la contraseña y del correo-->
-                <div class="row no-collapse-1">
+									<!--Contraseña-->
+									<div class="3u 12u(mobile)">
+										<h3><a href="#">Contraseña</a></h3>
+									</div>
+								</div>
 
-                    <!--Contraseña-->
-                    <section class="4u">
+								<!--Seccion del correo y carrera-->
+								<div class="row">
+									<!--Nombre-->
+									<div class="3u 12u(mobile)">
+										<p><input id="txtCorreo" placeholder="ejemplo@dominio.com" type="password" /></p>
+									</div>
 
-                        <!--Subtitulo-->
-                        <span class="byline">Contraseña</span>
+									<!--Apell1do 1-->
+									<div class="3u 12u(mobile)">
+										<p><select>
+											<option value="null"> </option>
+											<option value="AE"> Administración de Empresas </option>
+											<option value="TI"> Administración de Tecnologías de Información </option>
+											<option value="AU"> Arquitectura y Urbanismo </option>
+											<option value="EM"> Enseñanza de la Matemática asistida por computadora </option>
+											<option value="TS"> Gestión del Turismo Rural Sostenible </option>
+											<option value="TS"> Gestión en Turismo Sostenible </option>
+											<option value="IA"> Ingeniería Agrícola </option>
+											<option value="AA"> Ingeniería Agronegocios </option>
+											<option value="AI"> Ingeniería Ambiental </option>
+											<option value="AG"> Ingeniería en Agronomía </option>
+											<option value="IB"> Ingeniería en Biotecnología </option>
+											<option value="CA"> Ingeniería en Computación </option>
+											<option value="CE"> Ingeniería en Computadores </option>
+											<option value="CO"> Ingeniería en Construcción </option>
+											<option value="ID"> Ingeniería en Diseño Industrial </option>
+											<option value="EL"> Ingeniería en Electrónica </option>
+											<option value="MI"> Ingeniería en Mantenimiento Industrial </option>
+											<option value="CM"> Ingeniería en Materiales </option>
+											<option value="PI"> Ingeniería en Producción Industrial </option>
+											<option value="SO"> Ingeniería en Seguridad Laboral e Higiene Ambiental </option>
+											<option value="FO"> Ingeniería Forestal </option>
+											<option value="MT"> Ingeniería Mecatrónica </option>
+										</select></p>
+									</div>
 
-                        <div class="box">
-                            <input id="txtContraseña1" placeholder="Digite la contraseña" type="password" />
-                        </div>
-                    </section>
+									<!--Contraseña-->
+									<div class="3u 12u(mobile)">
+										<p><input id="txtContraseña1" placeholder="Digite la contraseña" type="password" /></p>
+									</div>
 
-                    <!--Confirmar contraseña-->
-                    <section class="4u">
-                        <br />
+									<!--Confirmar Contraseña-->
+									<div class="3u 12u(mobile)">
+										<p><input id="txtContraseña2" placeholder="Confirme su contraseña" type="password" /></p>
+									</div>
+								</div>
 
-                        <div class="box">
-                            <input id="txtContraseña2" placeholder="Confirme su contraseña" type="password" />
-                        </div>
-                    </section>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><a href="#" class="button big">Do Something</a></li>
+											<li><a href="#" class="button alt big">Think About It</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
 
-                    <!--Correo Electronico-->
-                    <section class="4u">
+					</div>
+				</div>
+			</div>
+		</div>
 
-                        <!--Subtitulo-->
-                        <span class="byline">Correo electrónico</span>
+		<!-- Footer -->
+		<footer id="footer" class="container">
+			<h2 class="major"><span>Tutor Cognitivo</span></h2>
 
-                        <div class="box">
-                            <input id="txtCorreo" placeholder="ejemplo@dominio.com" type="password" />
-                        </div>
-                    </section>
-                </div>
+			<!-- Copyright -->
+			<div id="copyright">
 
-                <!--Seccion de la carrera-->
-                <div class="row no-collapse-1">
+				<ul class="menu">
+					Creado por <b>ChuckyBueno</b> / II semestre / <b>Noviembre 2016</b>
+				</ul>
+			</div>
 
-                    <!--Carrera-->
-                    <section class="4u">
+		</footer>
 
-                        <!--Carrera-->
-                        <span class="byline">Carrera</span>
+	</div>
 
-                        <div class="box">
-                            <select>
-                                <option value="null"> </option>
-                                <option value="AE"> Administración de Empresas </option>
-                                <option value="TI"> Administración de Tecnologías de Información </option>
-                                <option value="AU"> Arquitectura y Urbanismo </option>
-                                <option value="EM"> Enseñanza de la Matemática asistida por computadora </option>
-                                <option value="TS"> Gestión del Turismo Rural Sostenible </option>
-                                <option value="TS"> Gestión en Turismo Sostenible </option>
-                                <option value="IA"> Ingeniería Agrícola </option>
-                                <option value="AA"> Ingeniería Agronegocios </option>
-                                <option value="AI"> Ingeniería Ambiental </option>
-                                <option value="AG"> Ingeniería en Agronomía </option>
-                                <option value="IB"> Ingeniería en Biotecnología </option>
-                                <option value="CA"> Ingeniería en Computación </option>
-                                <option value="CE"> Ingeniería en Computadores </option>
-                                <option value="CO"> Ingeniería en Construcción </option>
-                                <option value="ID"> Ingeniería en Diseño Industrial </option>
-                                <option value="EL"> Ingeniería en Electrónica </option>
-                                <option value="MI"> Ingeniería en Mantenimiento Industrial </option>
-                                <option value="CM"> Ingeniería en Materiales </option>
-                                <option value="PI"> Ingeniería en Producción Industrial </option>
-                                <option value="SO"> Ingeniería en Seguridad Laboral e Higiene Ambiental </option>
-                                <option value="FO"> Ingeniería Forestal </option>
-                                <option value="MT"> Ingeniería Mecatrónica </option>
-                            </select>
-                        </div>
-                    </section>
-
-                    <!--Sección vacia-->
-                    <section class="4u">
-                        <div class="box">
-
-                        </div>
-                    </section>
-
-                    <!--Seccion de los botones de aceptar y cancelar-->
-                    <section class="4u">
-                        <br />
-                        <div class="box">
-                            <button type="button" name="btnAceptar" onclick="return mensaje()" class="button">Aceptar</button>
-                            <button type="button" class="button">Cancelar</button>
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Pie de página -->
-<div id="copyright">
-    <div class="container">
-        <span class="copyright">
-            Tutor Cognitivo por <b>ChuckyBueno</b>
-            / II semestre / <b>Noviembre 2016</b>
-        </span>
-    </div>
-</div>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/skel-viewport.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
 
 </body>
 </html>
