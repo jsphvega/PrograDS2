@@ -1816,13 +1816,30 @@ Copyright
 		font-size: 1.25em;
 	}
 
+	.login p input[type="text"],
+    .login p input[type="password"]
+    {
+        width: 400px;
+    }
+
 	/* Button */
+ 
+    .radioGroup label {
+        display: inline-block;
+        margin: 0 2em;
+        text-align: center;
+    }
+    .radioGroup label input[type="radio"] {
+        margin: 0.5em auto;
+    }
 
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
-	.button {
+	.button,
+    .buttonFacebook,
+    .buttonGoogle {
 		font-size: 1.25em;
 		padding: 0.85em 1.85em;
 	}
@@ -1831,7 +1848,9 @@ Copyright
 	input[type="submit"].big,
 	input[type="reset"].big,
 	button.big,
-	.button.big {
+	.button.big,
+    .buttonFacebook.big,
+    .buttonGoogle.big {
 		font-size: 1.65em;
 		padding: 0.85em 1.85em;
 	}
@@ -1861,6 +1880,7 @@ Copyright
 
 	.box.feature {
 		text-align: center;
+		width: 100%;
 	}
 
 	.box.post header {
@@ -1939,7 +1959,7 @@ Copyright
 	/* Wrappers */
 
 	#banner-wrapper {
-		padding: 11em 0;
+		padding: 5em 0 2em  0;
 	}
 
 	#main-wrapper {
@@ -1955,7 +1975,7 @@ Copyright
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		padding: 5em 0 2em 0;
+		padding: 3em 0 0.5em 0;
 		background: #fff;
 		margin: 0 auto;
 	}
@@ -2127,7 +2147,9 @@ Copyright
 		margin: 0 0 1.25em 0;
 	}
 
-	#banner .button {
+	#banner .button,
+    #banner .buttonFacebook,
+    #banner .buttonGoogle {
 		font-size: 1.5em;
 	}
 
@@ -2141,7 +2163,7 @@ Copyright
 
 	#footer {
 		text-align: center;
-		padding: 8em 0 8em 0;
+		padding: 3em 0 3em 0;
 	}
 
 	#footer h2.major {
