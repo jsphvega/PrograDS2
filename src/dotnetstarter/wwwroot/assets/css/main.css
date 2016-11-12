@@ -2323,7 +2323,9 @@ Copyright
 	input[type="submit"],
 	input[type="reset"],
 	button,
-	.button {
+	.button,
+    .buttonFacebook,
+    .buttonGoogle {
 		font-size: 1.5em;
 		width: 100%;
 		padding: 0.75em 0 0.75em 0;
