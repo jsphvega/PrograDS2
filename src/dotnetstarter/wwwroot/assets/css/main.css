@@ -1254,8 +1254,8 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 select{
-    width: 100%;
-    height: 40px;
+	width: 100%;
+	height: 40px;
 }
 
 input[type="button"],
@@ -1727,15 +1727,15 @@ Banner
 }
 
 #banner .button {
-    background: rgba(255, 255, 255, 0.35) !important;
+	background: rgba(255, 255, 255, 0.35) !important;
 }
- 
+
 #banner .buttonFacebook {
-    background: rgba(59, 89, 152, 0.35) !important;
+	background: rgba(59, 89, 152, 0.35) !important;
 }
- 
+
 #banner .buttonGoogle {
-    background: rgba(221, 75, 57, 0.35) !important;
+	background: rgba(221, 75, 57, 0.35) !important;
 }
 
 #banner .button:hover,
@@ -1788,6 +1788,10 @@ Copyright
 	line-height: 1em;
 }
 
+#navPanel, #titleBar {
+	display: none;
+}
+
 /*DESKTOP*/
 @media screen and (min-width: 737px) {
 
@@ -1817,29 +1821,38 @@ Copyright
 	}
 
 	.login p input[type="text"],
-    .login p input[type="password"]
-    {
-        width: 400px;
-    }
+	.login p input[type="password"]
+	{
+		width: 400px;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	select{
+		width: 100%;
+		background-color: white;
+	}
+
 
 	/* Button */
- 
-    .radioGroup label {
-        display: inline-block;
-        margin: 0 2em;
-        text-align: center;
-    }
-    .radioGroup label input[type="radio"] {
-        margin: 0.5em auto;
-    }
+	
+	.radioGroup label {
+		display: inline-block;
+		margin: 0 2em;
+		text-align: center;
+	}
+	.radioGroup label input[type="radio"] {
+		margin: 0.5em auto;
+	}
 
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
 	.button,
-    .buttonFacebook,
-    .buttonGoogle {
+	.buttonFacebook,
+	.buttonGoogle {
 		font-size: 1.25em;
 		padding: 0.85em 1.85em;
 	}
@@ -1849,8 +1862,8 @@ Copyright
 	input[type="reset"].big,
 	button.big,
 	.button.big,
-    .buttonFacebook.big,
-    .buttonGoogle.big {
+	.buttonFacebook.big,
+	.buttonGoogle.big {
 		font-size: 1.65em;
 		padding: 0.85em 1.85em;
 	}
@@ -2148,8 +2161,8 @@ Copyright
 	}
 
 	#banner .button,
-    #banner .buttonFacebook,
-    #banner .buttonGoogle {
+	#banner .buttonFacebook,
+	#banner .buttonGoogle {
 		font-size: 1.5em;
 	}
 
@@ -2201,6 +2214,14 @@ Copyright
 	h2.major span {
 		top: -0.75em;
 		padding: 0 1em 0 1em;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	select{
+		width: 100%;
+		background-color: white;
 	}
 
 	/* Wrappers */
@@ -2268,10 +2289,6 @@ Copyright
 }
 
 /*MOBILE*/
-#navPanel, #titleBar {
-	display: none;
-}
-
 @media screen and (max-width: 736px) {
 
 	/* Basic */
@@ -2305,6 +2322,14 @@ Copyright
 		font-size: 1.25em;
 	}
 
+	input[type="text"],
+	input[type="email"],
+	input[type="password"],
+	select{
+		width: 100%;
+		background-color: white;
+	}
+
 	/* Section/Article */
 
 	section, article {
@@ -2324,8 +2349,8 @@ Copyright
 	input[type="reset"],
 	button,
 	.button,
-    .buttonFacebook,
-    .buttonGoogle {
+	.buttonFacebook,
+	.buttonGoogle {
 		font-size: 1.5em;
 		width: 100%;
 		padding: 0.75em 0 0.75em 0;
