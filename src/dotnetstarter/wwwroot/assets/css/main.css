@@ -46,10 +46,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-section input[type="text"],
-section input[type="email"],
-section input[type="password"],
-section select{
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
 	width: 100%;
 	height: 40px;
 }
