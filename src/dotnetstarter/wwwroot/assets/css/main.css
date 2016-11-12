@@ -1327,6 +1327,15 @@
 		background: #b1bab5;
 	}
 
+	.radioGroup label {
+		display: inline-block;
+		margin: 0 2em;
+		text-align: center;
+	}
+	.radioGroup label input[type="radio"] {
+		margin: 0.5em auto;
+	}
+
 	/* List */
 
 	ul.default {
@@ -1714,7 +1723,7 @@
 	}
 
 	#banner .button {
-		background: transparent !important;
+		background: rgba(255, 255, 255, 0.35) !important;
 	}
 
 	#banner .buttonFacebook {
@@ -1808,15 +1817,6 @@
 		.login p input[type="password"]
 		{
 			width: 400px;
-		}
-
-		.radioGroup label {
-			display: inline-block;
-			margin: 0 2em;
-			text-align: center;
-		}
-		.radioGroup label input[type="radio"] {
-			margin: 0.5em auto;
 		}
 
 		input[type="button"],
