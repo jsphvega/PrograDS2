@@ -253,6 +253,8 @@
 	input, textarea, select {
 		font-size: 10.25pt;
 		line-height: 1.75em;
+		background-color: white;
+		width: 100%;
 	}
 
 	h2.major {
