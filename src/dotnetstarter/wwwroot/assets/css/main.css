@@ -2213,7 +2213,6 @@ Copyright
 	input[type="email"],
 	input[type="password"],
 	select{
-		width: 100%;
 		background-color: white;
 	}
 
