@@ -1194,7 +1194,9 @@ header > p {
 	color: #c1cac5;
 }
 
-/* Image */
+/****************************************
+Image
+****************************************/
 
 .image {
 	position: relative;
@@ -1260,7 +1262,9 @@ input[type="button"],
 input[type="submit"],
 input[type="reset"],
 button,
-.button {
+.button,
+.buttonFacebook,
+.buttonGoogle {
 	-webkit-appearance: none;
 	display: inline-block;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -1285,7 +1289,9 @@ input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
-.button:hover {
+.button:hover,
+.buttonFacebook:hover,
+.buttonGoogle:hover {
 	background: #c1edbb;
 }
 
@@ -1301,7 +1307,9 @@ input[type="button"].alt,
 input[type="submit"].alt,
 input[type="reset"].alt,
 button.alt,
-.button.alt {
+.button.alt,
+.buttonFacebook:active,
+.buttonGoogle:active {
 	background: #c1cac5;
 }
 
@@ -1309,7 +1317,9 @@ input[type="button"].alt:hover,
 input[type="submit"].alt:hover,
 input[type="reset"].alt:hover,
 button.alt:hover,
-.button.alt:hover {
+.button.alt:hover,
+.buttonFacebook.alt,
+.buttonGoogle.alt {
 	background: #ccd5d0;
 }
 
@@ -1317,7 +1327,9 @@ input[type="button"].alt:active,
 input[type="submit"].alt:active,
 input[type="reset"].alt:active,
 button.alt:active,
-.button.alt:active {
+.button.alt:active,
+.buttonFacebook.alt:active,
+.buttonGoogle.alt:active {
 	background: #b1bab5;
 }
 
@@ -1701,24 +1713,41 @@ Banner
 	color: #575d59;
 }
 
-#banner .button {
+#banner .button,
+#banner .buttonFacebook,
+#banner .buttonGoogle {
 	-moz-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 	-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 	-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 	transition: border-color .2s ease-in-out, color .2s ease-in-out;
 	color: #b4b7b5;
-	background: transparent !important;
 	border: solid 4px #575d59;
 	border-color: rgba(87, 93, 89, 0.35);
 	border-radius: 16px;
 }
 
-#banner .button:hover {
+#banner .button {
+    background: rgba(255, 255, 255, 0.35) !important;
+}
+ 
+#banner .buttonFacebook {
+    background: rgba(59, 89, 152, 0.35) !important;
+}
+ 
+#banner .buttonGoogle {
+    background: rgba(221, 75, 57, 0.35) !important;
+}
+
+#banner .button:hover,
+#banner .buttonFacebook:hover,
+#banner .buttonGoogle:hover {
 	color: #e4e7e5;
 	border-color: rgba(87, 93, 89, 0.75);
 }
 
-#banner .button:active {
+#banner .button:active,
+#banner .butonFacebook:active,
+#banner .butonGoogle:active {
 	color: #fff;
 	border-color: #616763;
 }
