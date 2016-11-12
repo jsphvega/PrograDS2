@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>Inicio</title>
+	<title>Cambiar la contraseña</title>
 
 	<!--Configuraciones de la página-->
 	<meta charset="utf-8" />
@@ -20,12 +20,10 @@
 	<!--Contenedor principal-->
 	<div id="page-wrapper">
 
-		<!-- Nav -->
+		<!--Menú principal-->
 		<nav id="nav">
 			<ul>
-				<li><a href="">Registro por Facebook</a></li>
-				<li class="current"><a href="registro.html">Registro</a></li>
-				<li><a href="">Registro por google</a></li>
+				<li class="current"><a href="login.html">Volver</a></li>
 			</ul>
 		</nav>
 
@@ -33,40 +31,26 @@
 		<div id="banner-wrapper">
 			<section id="banner">
 				<!--titulo-->
-				<h2><a id="logo">Tutor Cognitivo</a></h2>
+				<h2><a id="logo">Digite la nueva contraseña</a></h2>
 
 				<!--Correo-->
 				<div class="login">
 
 
 					<!--Usuario-->
-					<h3>Usuario</h3>
-					<p><input id="txtUsuario" placeholder="Correo electrónico" type="text" /></p>
+					<h3>Contraseña</h3>
+					<p><input id="txtContraseña1" placeholder="Contraseña" type="password" /></p>
 
 					<!--Contraseña-->
-					<h3>Contraseña</h3>
-					<p><input id="txtContraseña" placeholder="Contraseña" type="password" /></p>
-
-					<!--Tipo-->
-					<div class="radioGroup">
-						<label for="markAdmin">
-							<input name="rdnTipo" type="radio" value="tutor"> Tutor</input>
-						</label>
-						<label for="markStudent">
-							<input name="rdnTipo" type="radio" value="admin"> Administrador</input>
-						</label>
-						<label for="markService">
-							<input name="rdnTipo" type="radio" value="final"> Final</input>
-						</label>
-					</div>
+					<h3>Confirme la contraseña</h3>
+					<p><input id="txtContraseña2" placeholder="Confirmar la contraseña" type="password" /></p>
 
 					<br/>
 				</div>
 
 				<!--Botones de inicio-->	
-				<a class="buttonFacebook">Iniciar por Facebook</a>
-				<a class="button">Iniciar Sesión</a>
-				<a class="buttonGoogle">Iniciar por Google</a>
+				<a class="button">Aceptar</a>
+				<a class="button">Cancelar</a>
 			</section>
 		</div>
 
