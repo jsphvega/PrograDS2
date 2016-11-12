@@ -237,6 +237,7 @@ Grid
 
 .row.\32 00\25 {
 	margin: 0 0 -1px -80px;
+	width: 110%;
 }
 
 .row.uniform.\32 00\25 > * {
