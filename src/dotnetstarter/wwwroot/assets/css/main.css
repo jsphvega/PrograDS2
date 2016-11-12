@@ -128,7 +128,7 @@
 		}
 
 		.container.\37 5\25 {
-		
+
 			width: 720px;
 		}
 
@@ -1254,7 +1254,9 @@
 	input[type="submit"],
 	input[type="reset"],
 	button,
-	.button {
+	.button,
+	.buttonFacebook,
+	.buttonGoogle {
 		-webkit-appearance: none;
 		display: inline-block;
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -1279,7 +1281,9 @@
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	button:hover,
-	.button:hover {
+	.button:hover,
+	.buttonFacebook:hover,
+	.buttonGoogle:hover {
 		background: #c1edbb;
 	}
 
@@ -1287,7 +1291,9 @@
 	input[type="submit"]:active,
 	input[type="reset"]:active,
 	button:active,
-	.button:active {
+	.button:active,
+	.buttonFacebook:active,
+	.buttonGoogle:active {
 		background: #a1cd9b;
 	}
 
@@ -1295,7 +1301,9 @@
 	input[type="submit"].alt,
 	input[type="reset"].alt,
 	button.alt,
-	.button.alt {
+	.button.alt,
+	.buttonFacebook.alt,
+	.buttonGoogle.alt {
 		background: #c1cac5;
 	}
 
@@ -1303,7 +1311,9 @@
 	input[type="submit"].alt:hover,
 	input[type="reset"].alt:hover,
 	button.alt:hover,
-	.button.alt:hover {
+	.button.alt:hover,
+	.buttonFacebook.alt:hover,
+	.buttonGoogle.alt:hover {
 		background: #ccd5d0;
 	}
 
@@ -1311,7 +1321,9 @@
 	input[type="submit"].alt:active,
 	input[type="reset"].alt:active,
 	button.alt:active,
-	.button.alt:active {
+	.button.alt:active,
+	.buttonFacebook.alt:active,
+	.buttonGoogle.alt:active {
 		background: #b1bab5;
 	}
 
@@ -1687,24 +1699,42 @@
 		color: #575d59;
 	}
 
-	#banner .button {
+	#banner .button,
+	#banner .buttonFacebook,
+	#banner .buttonGoogle
+	{
 		-moz-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		transition: border-color .2s ease-in-out, color .2s ease-in-out;
 		color: #b4b7b5;
-		background: transparent !important;
 		border: solid 4px #575d59;
 		border-color: rgba(87, 93, 89, 0.35);
 		border-radius: 16px;
 	}
 
-	#banner .button:hover {
+	#banner .button {
+		background: transparent !important;
+	}
+
+	#banner .buttonFacebook {
+		background: rgba(59, 89, 152, 0.35) !important;
+	}
+
+	#banner .buttonGoogle {
+		background: rgba(221, 75, 57, 0.35) !important;
+	}
+
+	#banner .button:hover,
+	#banner .buttonFacebook:hover,
+	#banner .buttonGoogle:hover {
 		color: #e4e7e5;
 		border-color: rgba(87, 93, 89, 0.75);
 	}
 
-	#banner .button:active {
+	#banner .button:active,
+	#banner .butonFacebook:active,
+	#banner .butonGoogle:active {
 		color: #fff;
 		border-color: #616763;
 	}
@@ -1774,11 +1804,28 @@
 
 		/* Button */
 
+		.login p input[type="text"],
+		.login p input[type="password"]
+		{
+			width: 400px;
+		}
+
+		.radioGroup label {
+			display: inline-block;
+			margin: 0 2em;
+			text-align: center;
+		}
+		.radioGroup label input[type="radio"] {
+			margin: 0.5em auto;
+		}
+
 		input[type="button"],
 		input[type="submit"],
 		input[type="reset"],
 		button,
-		.button {
+		.button,
+		.buttonFacebook,
+		.buttonGoogle {
 			font-size: 1.25em;
 			padding: 0.85em 1.85em;
 		}
@@ -1787,7 +1834,9 @@
 		input[type="submit"].big,
 		input[type="reset"].big,
 		button.big,
-		.button.big {
+		.button.big,
+		.buttonFacebook.big,
+		.buttonGoogle.big {
 			font-size: 1.65em;
 			padding: 0.85em 1.85em;
 		}
@@ -1895,7 +1944,7 @@
 		/* Wrappers */
 
 		#banner-wrapper {
-			padding: 5em 0;
+			padding: 1em 0 0 0; 
 		}
 
 		#main-wrapper {
@@ -2083,7 +2132,9 @@
 			margin: 0 0 1.25em 0;
 		}
 
-		#banner .button {
+		#banner .button,
+		#banner .buttonFacebook,
+		#banner .buttonGoogle {
 			font-size: 1.5em;
 		}
 
@@ -2265,7 +2316,9 @@
 		input[type="submit"],
 		input[type="reset"],
 		button,
-		.button {
+		.button,
+		.buttonFacebook,
+		.buttonGoogle {
 			font-size: 1.5em;
 			width: 100%;
 			padding: 0.75em 0 0.75em 0;
