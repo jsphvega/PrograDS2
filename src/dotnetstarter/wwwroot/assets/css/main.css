@@ -866,6 +866,7 @@ Grid
 
 	.row {
 		margin: -20px 0 -1px -20px;
+		width: 100%
 	}
 
 	.row.uniform > * {
