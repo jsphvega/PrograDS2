@@ -43,101 +43,105 @@
 		<div id="main-wrapper">
 
 			<!--Contenedor-->
-			<div id="main" class="container">
+			<div id="main" class="container 100%">
 
 				<div class="row 200%">
-					<!-- Features -->
-					<section class="box features">
-						<h2 class="major"><span>Registro de usuarios</span></h2>
-						<div>
+					<div class="12u (mobile)">
 
-							<!--Seccion del nombre y correo-->
-							<div class="row" style:"margin:0em">
-								<!--Nombre-->
-								<div class="4u 1u(mobile) 1u(tablet)">
-									<h3>Nombre</h3>
-									<p><input id="txtNombre" placeholder="Nombre" type="text" /></p>
+						<!-- Features -->
+						<section class="box features">
+							<h2 class="major"><span>Registro de usuarios</span></h2>
+							<div>
+
+								<!--Seccion del nombre y correo-->
+								<div class="row" style:"margin:0em">
+									<!--Nombre-->
+									<div class="4u 1u(mobile) 1u(tablet)">
+										<h3>Nombre</h3>
+										<p><input id="txtNombre" placeholder="Nombre" type="text" /></p>
+									</div>
+
+									<!--Apell1do 1-->
+									<div class="4u 1u(mobile) 1u(tablet)">
+										<h3>1° Apellido</h3>
+										<p><input id="txtApellido1" placeholder="1° Apellido" type="text" /></p>
+									</div>
+
+									<!--Apellido 2-->
+									<div class="4u 1u(mobile) 1u(tablet)">
+										<h3>1° Apellido</h3>
+										<p><input id="txtApellido2" placeholder="2° Apellido" type="text"/></p>
+									</div>
 								</div>
 
-								<!--Apell1do 1-->
-								<div class="4u 1u(mobile) 1u(tablet)">
-									<h3>1° Apellido</h3>
-									<p><input id="txtApellido1" placeholder="1° Apellido" type="text" /></p>
+								<!--Seccion del correo y la contraseña-->
+								<div class="row" style:"margin:0em">
+									<!--Correo-->
+									<div class="4u 12u(mobile)">
+										<h3>Correo electrónico</h3>
+										<p><input id="txtCorreo" placeholder="ejemplo@dominio.com" type="text" /></p>
+									</div>
+
+									<!--Contraseña-->
+									<div class="4u 12u(mobile)">
+										<h3>Contraseña</h3>
+										<p><input id="txtContraseña1" placeholder="Digite la contraseña" type="password" /></p>
+									</div>
+
+									<!--Confirmar Contraseña-->
+									<div class="4u 12u(mobile)">
+										<h3>Confirmar</h3>
+										<p><input id="txtContraseña2" placeholder="Confirme su contraseña" type="password" /></p>
+									</div>
 								</div>
 
-								<!--Apellido 2-->
-								<div class="4u 1u(mobile) 1u(tablet)">
-									<h3>1° Apellido</h3>
-									<p><input id="txtApellido2" placeholder="2° Apellido" type="text"/></p>
+								<!--Seccion de la carrera-->
+								<div class="row" style:"margin:0em">
+									<!--Carrera-->
+									<div class="4u 12u(mobile)">
+										<h3>Carrera</h3>
+										<p>
+											<select>
+												<option value="null"> </option>
+												<option value="AE"> Administración de Empresas </option>
+												<option value="TI"> Administración de Tecnologías de Información </option>
+												<option value="AU"> Arquitectura y Urbanismo </option>
+												<option value="EM"> Enseñanza de la Matemática asistida por computadora </option>
+												<option value="TS"> Gestión del Turismo Rural Sostenible </option>
+												<option value="TS"> Gestión en Turismo Sostenible </option>
+												<option value="IA"> Ingeniería Agrícola </option>
+												<option value="AA"> Ingeniería Agronegocios </option>
+												<option value="AI"> Ingeniería Ambiental </option>
+												<option value="AG"> Ingeniería en Agronomía </option>
+												<option value="IB"> Ingeniería en Biotecnología </option>
+												<option value="CA"> Ingeniería en Computación </option>
+												<option value="CE"> Ingeniería en Computadores </option>
+												<option value="CO"> Ingeniería en Construcción </option>
+												<option value="ID"> Ingeniería en Diseño Industrial </option>
+												<option value="EL"> Ingeniería en Electrónica </option>
+												<option value="MI"> Ingeniería en Mantenimiento Industrial </option>
+												<option value="CM"> Ingeniería en Materiales </option>
+												<option value="PI"> Ingeniería en Producción Industrial </option>
+												<option value="SO"> Ingeniería en Seguridad Laboral e Higiene Ambiental </option>
+												<option value="FO"> Ingeniería Forestal </option>
+												<option value="MT"> Ingeniería Mecatrónica </option>
+											</select>
+										</p>
+									</div>
+								</div>
+
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><a href="#" class="button big">Aceptar</a></li>
+											<li><a href="#" class="button alt big">Cancelar</a></li>
+										</ul>
+									</div>
 								</div>
 							</div>
+						</section>
 
-							<!--Seccion del correo y la contraseña-->
-							<div class="row" style:"margin:0em">
-								<!--Correo-->
-								<div class="4u 12u(mobile)">
-									<h3>Correo electrónico</h3>
-									<p><input id="txtCorreo" placeholder="ejemplo@dominio.com" type="text" /></p>
-								</div>
-
-								<!--Contraseña-->
-								<div class="4u 12u(mobile)">
-									<h3>Contraseña</h3>
-									<p><input id="txtContraseña1" placeholder="Digite la contraseña" type="password" /></p>
-								</div>
-
-								<!--Confirmar Contraseña-->
-								<div class="4u 12u(mobile)">
-									<h3>Confirmar</h3>
-									<p><input id="txtContraseña2" placeholder="Confirme su contraseña" type="password" /></p>
-								</div>
-							</div>
-
-							<!--Seccion de la carrera-->
-							<div class="row" style:"margin:0em">
-								<!--Carrera-->
-								<div class="4u 12u(mobile)">
-									<h3>Carrera</h3>
-									<p>
-										<select>
-											<option value="null"> </option>
-											<option value="AE"> Administración de Empresas </option>
-											<option value="TI"> Administración de Tecnologías de Información </option>
-											<option value="AU"> Arquitectura y Urbanismo </option>
-											<option value="EM"> Enseñanza de la Matemática asistida por computadora </option>
-											<option value="TS"> Gestión del Turismo Rural Sostenible </option>
-											<option value="TS"> Gestión en Turismo Sostenible </option>
-											<option value="IA"> Ingeniería Agrícola </option>
-											<option value="AA"> Ingeniería Agronegocios </option>
-											<option value="AI"> Ingeniería Ambiental </option>
-											<option value="AG"> Ingeniería en Agronomía </option>
-											<option value="IB"> Ingeniería en Biotecnología </option>
-											<option value="CA"> Ingeniería en Computación </option>
-											<option value="CE"> Ingeniería en Computadores </option>
-											<option value="CO"> Ingeniería en Construcción </option>
-											<option value="ID"> Ingeniería en Diseño Industrial </option>
-											<option value="EL"> Ingeniería en Electrónica </option>
-											<option value="MI"> Ingeniería en Mantenimiento Industrial </option>
-											<option value="CM"> Ingeniería en Materiales </option>
-											<option value="PI"> Ingeniería en Producción Industrial </option>
-											<option value="SO"> Ingeniería en Seguridad Laboral e Higiene Ambiental </option>
-											<option value="FO"> Ingeniería Forestal </option>
-											<option value="MT"> Ingeniería Mecatrónica </option>
-										</select>
-									</p>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><a href="#" class="button big">Aceptar</a></li>
-										<li><a href="#" class="button alt big">Cancelar</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</section>
+					</div>
 				</div>
 			</div>
 		</div>
