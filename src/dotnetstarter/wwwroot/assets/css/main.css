@@ -601,15 +601,6 @@ button.alt:active,
 	background: #b1bab5;
 }
 
-.radioGroup label {
-	display: inline-block;
-	margin: 0 2em;
-	text-align: center;
-}
-.radioGroup label input[type="radio"] {
-	margin: 0.5em auto;
-}
-
 /* List */
 
 ul.default {

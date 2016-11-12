@@ -274,6 +274,15 @@
 		width: 400px;
 	}
 
+	.radioGroup label {
+		display: inline-block;
+		margin: 0 2em;
+		text-align: center;
+	}
+	.radioGroup label input[type="radio"] {
+		margin: 0.5em auto;
+	}
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -408,7 +417,6 @@
 	}
 
 	/* Header */
-
 	#header {
 		text-align: center;
 		font-size: 2em;

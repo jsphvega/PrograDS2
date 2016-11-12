@@ -264,6 +264,15 @@
 		padding: 0 1em 0 1em;
 	}
 
+	.radioGroup label {
+		display: inline-block;
+		margin: 0 2em;
+		text-align: center;
+	}
+	.radioGroup label input[type="radio"] {
+		margin: 0.5em auto;
+	}
+
 	/* Wrappers */
 
 	#banner-wrapper {
