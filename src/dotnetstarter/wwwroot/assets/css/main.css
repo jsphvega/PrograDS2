@@ -120,20 +120,24 @@ Containers
 
 	.container.\31 25\25 {
 		width: 100%;
-		max-width: 125%;
-		min-width: 100%;
+		max-width: 1200px;
+		min-width: 960px;
 	}
 
 	.container.\37 5\25 {
-		width: 75%;
+		width: 820px;
 	}
 
 	.container.\35 0\25 {
-		width: 50%
+		width: 580px;
 	}
 
 	.container.\32 5\25 {
-		width: 25%;
+		width: 340px;
+	}
+
+	.container {
+		width: 100%;
 	}
 }
 
