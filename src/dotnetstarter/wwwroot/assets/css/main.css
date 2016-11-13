@@ -113,6 +113,7 @@ Containers
 	.container {
 		width: 1200px;
 	}
+
 }
 
 /*TABLET*/
@@ -125,20 +126,21 @@ Containers
 	}
 
 	.container.\37 5\25 {
-		width: 920px;
+		width: 720px;
 	}
 
 	.container.\35 0\25 {
-		width: 680px;
+		width: 480px;
 	}
 
 	.container.\32 5\25 {
-		width: 440px;
+		width: 240px;
 	}
 
 	.container {
-		width: 90%;
+		width: 960px;
 	}
+
 }
 
 /*MOBILE*/
@@ -165,6 +167,7 @@ Containers
 	.container {
 		width: 100% !important;
 	}
+
 }
 
 /****************************************
@@ -237,7 +240,6 @@ Grid
 
 .row.\32 00\25 {
 	margin: 0 0 -1px -80px;
-	width: 110%;
 }
 
 .row.uniform.\32 00\25 > * {
@@ -640,6 +642,7 @@ Grid
 	.\-1u\28desktop\29 {
 		margin-left: 8.33333%;
 	}
+
 }
 
 /*TABLET*/
@@ -855,6 +858,7 @@ Grid
 	.\-1u\28tablet\29 {
 		margin-left: 8.33333%;
 	}
+
 }
 
 /*MOBILE*/
@@ -1070,7 +1074,6 @@ Grid
 	.\-1u\28mobile\29 {
 		margin-left: 8.33333%;
 	}
-
 }
 
 /**************************************** 
@@ -2323,6 +2326,12 @@ Copyright
 	}
 
 	/* Section/Article */
+
+	.row div input[type="text"],
+	.row div input[type="password"],
+	.row div select{
+		width: 100%;
+	}
 
 	section, article {
 		clear: both;
