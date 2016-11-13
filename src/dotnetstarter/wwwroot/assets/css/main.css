@@ -2318,7 +2318,6 @@ Copyright
 	input[type="email"],
 	input[type="password"],
 	select{
-		width: 150%;
 		height: 40px;
 		background-color: white;
 	}
