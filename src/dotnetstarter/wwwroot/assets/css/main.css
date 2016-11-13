@@ -221,7 +221,6 @@ Grid
 
 .row {
 	margin: 0 0 -1px -40px;
-		width: 100%;
 }
 
 .row.uniform > * {
